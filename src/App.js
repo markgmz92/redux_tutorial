@@ -10,7 +10,9 @@ function App() {
     dispatch({ type: 'INC' });
   };
 
-  const decrement = () => {};
+  const decrement = () => {
+    dispatch({ type: 'DEC' });
+  };
   return (
     <div>
       <h1>Counter App</h1>
